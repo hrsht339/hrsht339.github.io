@@ -623,3 +623,9 @@ input:checked+.slider:before {
 #heart>img {
     width: 100%;
 }
+
+#github-streak-stats{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
