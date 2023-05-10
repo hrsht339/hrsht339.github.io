@@ -279,6 +279,9 @@ input:checked+.slider:before {
     width: 28.5vh;
     cursor: pointer;
 }
+#aboutone>div{
+    display: flex;
+}
 
 #about img {
     display: flex;
@@ -628,4 +631,17 @@ input:checked+.slider:before {
     display: block;
     width: 70%;
     margin: auto;
+}
+
+#github-top-langs,#github-stats-card{
+    width: auto;
+display:inline-block
+}
+
+#github-top-langs>img{
+    width: 372px;
+    /* height: 100px; */
+}
+#github-stats-card>img{
+    width: 850px;
 }
