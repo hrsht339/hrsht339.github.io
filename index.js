@@ -20,10 +20,12 @@ let openResume = document.getElementById("resume-button-1");
     
    })
 
-   let openResumetwo = document.getElementById("resume-button-2");
+   let openResumetwo = document.getElementById("resume-link-2");
     
     openResumetwo.addEventListener("click", () => {
-        
-    window.open('https://drive.google.com/file/d/1o5aVoIEX1jvMv0Rc4FA6M-fdkuSlXnmp/view?usp=share_link', '_blank'); 
+        setTimeout(myGreeting, 2000);
+        function myGreeting(){
+            window.open('https://drive.google.com/file/d/1o5aVoIEX1jvMv0Rc4FA6M-fdkuSlXnmp/view?usp=share_link', '_blank'); 
     
+        }
    })
