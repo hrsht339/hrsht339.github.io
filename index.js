@@ -25,6 +25,6 @@ let openResume = document.getElementById("resume-button-1");
     openResumetwo.addEventListener("click", () => {
        
             window.open('https://drive.google.com/file/d/1o5aVoIEX1jvMv0Rc4FA6M-fdkuSlXnmp/view?usp=share_link', '_blank'); 
-    
-        
+            
+            // window.location.assign("https://drive.google.com/file/d/1o5aVoIEX1jvMv0Rc4FA6M-fdkuSlXnmp/view?usp=sharing", "_blank");
    })
