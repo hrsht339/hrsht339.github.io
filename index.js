@@ -28,3 +28,9 @@ let openResume = document.getElementById("resume-button-1");
             
             // window.location.assign("https://drive.google.com/file/d/1o5aVoIEX1jvMv0Rc4FA6M-fdkuSlXnmp/view?usp=sharing", "_blank");
    })
+
+
+   document.querySelector(".js-calendar-graph-svg").setAttribute("width","100%")
+
+
+  
